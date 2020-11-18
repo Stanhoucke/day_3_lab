@@ -48,4 +48,15 @@ def number_to_short_month_name(number):
     elif number == 10:
         tenth_month_string = "Oct"
         return tenth_month_string
-    
+
+def length_of_side(number):
+    cube_volume = number * number * number
+    return cube_volume
+
+def string(text):
+    string_reversed = text[::-1]
+    return string_reversed
+
+def f_to_c(ftemp):
+    converted_temp = (ftemp-32) * 5 / 9
+    return converted_temp
