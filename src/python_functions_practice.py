@@ -32,9 +32,9 @@ def add_string_as_number(string_1, string_2):
 def number_to_full_month_name(number):
     if number == 1:
         result = "January"
-    if number == 3:
+    elif number == 3:
         result = "March"
-    if number == 9:
+    elif number == 9:
         result = "September"
     return result
 
